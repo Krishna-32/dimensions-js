@@ -5,6 +5,16 @@
   --foreground: #171717;
 }
 
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+ }
+ 
+ /* Apply to all elements for WebKit browsers */
+ *::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+ }
+
 @font-face {
   font-family: 'InputMono';
   src: url('../app/fonts/InputMono-Bold.ttf') format('truetype');
