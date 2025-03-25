@@ -45,14 +45,14 @@ function InfiniteTextMenu() {
   }, []);
 
   return (
-    <div className="bg-red-500 w-[70vw] h-[45vw] relative left-1/2 -translate-x-1/2 my-10 rounded-lg" ref={menuRef}>
+    <div className="bg-red-500 w-fit h-[full] relative left-1/2 -translate-x-1/2 my-10 rounded-lg" ref={menuRef}>
       <ITM
         subtitle={subtitles}
         title={titles}
         bgImage={bgImage}
         subtitleColor="white"
         titleColor="white"
-        width="70vw"
+        width={windowWidth < 320 ? "70vw" : windowWidth < 380 ? "90vw" : windowWidth < 420 ? "80vw" : windowWidth < 600 ? "85vw" : windowWidth < 768 ? "90vw" : windowWidth < 1024 ? "90vw" : windowWidth < 1280 ? "90vw" : "65vw"}
         height="45vw"
         subtitleFontSize={windowWidth < 320 ? ".6rem" : windowWidth < 420 ? "1rem" : windowWidth < 600 ? "1.2rem" : windowWidth < 768 ? "1.425rem" : windowWidth < 1024 ? "1.7rem" : windowWidth < 1280 ? "1.925rem" : "2.2rem"}
         titleFontSize={windowWidth < 320 ? "1.2rem" : windowWidth < 420 ? "2.2rem" : windowWidth < 600 ? "3rem" : windowWidth < 768 ? "3.5rem" : windowWidth < 1024 ? "4rem" : windowWidth < 1280 ? "4.5rem" : "5rem"}

@@ -1,18 +1,16 @@
 import React from 'react'
-import Navbar from './modules/Navbar'
-import InfiniteTextMenu from './components/InfiniteTextMenu'
+import { Navbar, Icons } from './modules'
+import { InfiniteTextMenu } from './components'
 function page() {
 
   return (
     <div className="wrapper">
 
-      <div className="main bg-[#252423] w-full h-full flex flex-col items-center">
-        <div className='py-6 w-full'>
+      <div className="main bg-[#252423] w-full h-full flex flex-col items-center pb-20">
+        <div className='py-6 w-full flex flex-col gap-4'>
           <Navbar />
-          <div className=''>
-            <InfiniteTextMenu />
-          </div>
-
+          <InfiniteTextMenu />
+          <Icons />
         </div>
       </div>
 
