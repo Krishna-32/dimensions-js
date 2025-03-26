@@ -9,7 +9,7 @@ function InfiniteTextMenu() {
 
   const subtitles = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
   const titles = ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky", "Brook", "Jinbe"];
-  const bgImage = "https://i.pinimg.com/736x/9e/d7/eb/9ed7ebd951fd32e6dee5454b98811050.jpg";
+  const bgImage = "/bg.jpg";
 
   useEffect(() => {
     // Set initial window width after component mounts

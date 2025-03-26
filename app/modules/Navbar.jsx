@@ -4,12 +4,13 @@ function Navbar() {
   return (
     <div className='nav-container w-full px-10 xl:px-52 flex justify-between items-center font-medium font-roobert max-[380px]:justify-center'>
       <div className='nav-left'>
-        <span className='font-mono uppercase text-lg'>Dimension-JS</span>
+        <a href="http://localhost:3000/" className='font-mono uppercase text-lg cursor-pointer text-[#f6f4f2]'>Dimension-JS</a>
       </div>
       <div className='nav-right gap-4 items-center flex'>
-        {['Documentation', 'Examples', 'Sponsor', 'Download v0.0.0'].map((item, index) => (
-          <span key={index} className={`font-roobert ${index === 3 ? 'bg-[#f74f4d] rounded-full hidden min-[380px]:flex min-[380px]:py-1 min-[380px]:px-3 text-[#252423]' : 'text-[#f6f4f2] hidden min-[669px]:flex'}`}>{item}</span>
-        ))}
+        <a href="/documentation" className='text-[#f6f4f2] hidden min-[669px]:flex'>Documentation</a>
+        <a href="/examples" className='text-[#f6f4f2] hidden min-[669px]:flex'>Examples</a>
+        <a href="https://mainpf-studio.vercel.app/" className='text-[#f6f4f2] hidden min-[669px]:flex'>Sponsor</a>
+        <a href="https://www.npmjs.com/package/dimension-js" className='bg-[#f74f4d] rounded-full hidden min-[380px]:flex min-[380px]:py-1 min-[380px]:px-3 text-[#252423]'>Download v0.0.0</a>
       </div>
     </div>
   )

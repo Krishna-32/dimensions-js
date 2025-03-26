@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Icons } from './modules'
-import { InfiniteTextMenu } from './components'
+import { InfiniteTextMenu, Page2 } from './components'
 function page() {
 
   return (
@@ -15,17 +15,17 @@ function page() {
       </div>
 
 
-      <div className="first bg-[#f6f4f2] w-full h-screen">
-        
+      <div className="first bg-[#f6f4f2] w-full h-full">
+        <Page2 />
       </div>
 
 
-      <div className="second bg-[#252423] w-full h-screen">
+      <div className="second bg-[#252423] w-full h-full">
 
       </div>
 
 
-      <div className="docs bg-[#f6f4f2] w-full h-screen">
+      <div className="docs bg-[#f6f4f2] w-full h-full">
 
       </div>
 
