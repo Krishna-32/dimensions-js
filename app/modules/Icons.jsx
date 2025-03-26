@@ -33,52 +33,52 @@ function Icons() {
       } w-full flex items-start justify-center`}
     >
       <div className="flex gap-6">
-        <div className="github">
+        <div className="github cursor-pointer group">
           <span className="flex flex-col items-center gap-2">
             <IoLogoGithub
-              className='text-4xl'
+              className='text-4xl group-hover:-translate-y-2 transition-all duration-300'
             />
             <p
-              className='font-mono text-xs'
+              className='font-mono text-xs group-hover:text-gray-400 transition-all duration-300'
             >
               Github
             </p>
           </span>
         </div>
 
-        <div className="docs">
+        <div className="docs cursor-pointer group">
           <span className="flex flex-col items-center gap-2">
             <BiCodeCurly
-              className='text-4xl'
+              className='text-4xl group-hover:-translate-y-2 transition-all duration-300'
               />
               <p
-                className='font-mono text-xs'
+                className='font-mono text-xs group-hover:text-gray-400 transition-all duration-300'
               >
               Docs
             </p>
           </span>
         </div>
 
-        <div className="code">
+        <div className="code cursor-pointer group">
           <span className="flex flex-col items-center gap-2">
             <HiOutlineCode
-              className='text-4xl'
+              className='text-4xl group-hover:-translate-y-2 transition-all duration-300'
               />
               <p
-                className='font-mono text-xs'
+                className='font-mono text-xs group-hover:text-gray-400 transition-all duration-300'
               >
               Code
             </p>
           </span>
         </div>
 
-        <div className="portfolio">
+        <div className="portfolio cursor-pointer group">
           <span className="flex flex-col items-center gap-2">
             <GiRamProfile
-              className='text-4xl'
+              className='text-4xl group-hover:-translate-y-2 transition-all duration-300'
               />
               <p
-                className='font-mono text-xs'
+                className='font-mono text-xs group-hover:text-gray-400 transition-all duration-300'
               >
               Portfolio
             </p>
