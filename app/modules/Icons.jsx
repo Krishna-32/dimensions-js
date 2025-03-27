@@ -5,7 +5,7 @@ import { IoLogoGithub } from "react-icons/io";
 import { BiCodeCurly } from "react-icons/bi";
 import { HiOutlineCode } from "react-icons/hi";
 import { GiRamProfile } from "react-icons/gi";
-
+import { GettingStartedBtn } from "./index";
 function Icons() {
   const [windowWidth, setWindowWidth] = useState(0);
 
@@ -87,7 +87,7 @@ function Icons() {
       </div>
 
       <div
-        className={`flex items-center justify-center ${
+        className={`flex justify-center gap-4 flex-col ${
           windowWidth > 1024
             ? "border-l-2 border-gray-300 pl-10 ml-10 w-1/4"
             : windowWidth > 773
@@ -100,6 +100,8 @@ function Icons() {
           with a simple, yet powerful API. It works with CSS properties, SVG,
           DOM attributes and JavaScript Objects.
         </p>
+
+        <GettingStartedBtn />
       </div>
     </div>
   );

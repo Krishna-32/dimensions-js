@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { Navbar, Icons } from './modules'
 import { InfiniteTextMenu, Page2 } from './components'
@@ -15,7 +16,7 @@ function page() {
       </div>
 
 
-      <div className="first bg-[#f6f4f2] w-full h-full">
+      <div className="first bg-[#f6f4f2] w-full h-full pb-20">
         <Page2 />
       </div>
 

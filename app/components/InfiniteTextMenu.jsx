@@ -45,7 +45,7 @@ function InfiniteTextMenu() {
   }, []);
 
   return (
-    <div className="bg-red-500 w-fit h-[full] relative left-1/2 -translate-x-1/2 my-10 rounded-lg" ref={menuRef}>
+    <div className="w-fit h-[full] relative left-1/2 -translate-x-1/2 my-10 rounded-lg" ref={menuRef}>
       <ITM
         subtitle={subtitles}
         title={titles}
