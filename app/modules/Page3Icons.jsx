@@ -1,10 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { IoLogoGithub } from "react-icons/io";
-import { BiCodeCurly } from "react-icons/bi";
-import { HiOutlineCode } from "react-icons/hi";
-import { GiRamProfile } from "react-icons/gi";
+import { FaHtml5, FaCss3, FaJs, FaReact } from "react-icons/fa";
+
 import { Codebtn } from "./index";
 
 function Icons() {
@@ -58,55 +56,55 @@ function Icons() {
               <p className="text-sm">borderWidth</p>
             </div>
           </div> */}
-          <div className={`flex gap-5 ${windowWidth < 375 ? 'flex-wrap' : windowWidth < 1024 ? 'w-full justify-start' : ''}`}>
+          <div className={`flex gap-14 ${windowWidth < 375 ? 'flex-wrap' : windowWidth < 1024 ? 'w-full justify-start' : ''}`}>
         <div className="github cursor-pointer group">
           <a href="https://github.com/Krishna-32/Dimensions.js" className="flex flex-col items-center gap-2">
-           <IoLogoGithub
+           <FaHtml5
               className='text-4xl group-hover:-translate-y-2 transition-all duration-300'
             />
             <p
               className='font-mono text-xs text-[#f6f4f2] group-hover:text-[#f74f4d] transition-all duration-300'
             >
-              Github
+              HTML
             </p>
           </a>
         </div>
 
         <div className="docs cursor-pointer group">
           <a href="https://dimension-js.vercel.app/documentation" className="flex flex-col items-center gap-2">
-            <BiCodeCurly
+            <FaCss3
               className='text-4xl group-hover:-translate-y-2 transition-all duration-300'
               />
               <p
                 className='font-mono text-xs text-[#f6f4f2] group-hover:text-[#f74f4d] transition-all duration-300'
               >
-              Documentation
+              CSS
             </p>
           </a>
         </div>
 
         <div className="code cursor-pointer group">
           <a href="https://dimension-js.vercel.app/examples" className="flex flex-col items-center gap-2">
-           <HiOutlineCode
+           <FaJs
               className='text-4xl group-hover:-translate-y-2 transition-all duration-300'
               />
               <p
                 className='font-mono text-xs text-[#f6f4f2] group-hover:text-[#f74f4d] transition-all duration-300'
               >
-              Examples
+              JS
             </p>
           </a>
         </div>
 
         <div className="portfolio cursor-pointer group">
           <a href="https://mainpf-studio.vercel.app/" className="flex flex-col items-center gap-2">
-            <GiRamProfile
+            <FaReact
               className='text-4xl group-hover:-translate-y-2 transition-all duration-300'
               />
               <p
                 className='font-mono text-xs text-[#f6f4f2] group-hover:text-[#f74f4d] transition-all duration-300'
               >
-              Portfolio
+              React
             </p>
           </a>
         </div>
@@ -125,7 +123,7 @@ function Icons() {
           SVG, DOM attributes and JavaScript Objects.
         </p>
 
-        <Codebtn text="Getting Started" />
+        <Codebtn text="Use this code in your project" />
       </div>
     </div>
   );

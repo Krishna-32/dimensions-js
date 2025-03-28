@@ -24,11 +24,11 @@ function Page2Icons() {
   return (
     <div
       className={`main-container w-full flex text-[#252423] ${
-         windowWidth < 867 ? "flex-col gap-6 px-6" : windowWidth < 1024 ? "justify-start px-10" : "justify-center gap-40"
+         windowWidth < 903 ? "flex-col gap-6 px-6" : windowWidth < 1024 ? "justify-start px-10" : "justify-center gap-40"
       }`}
     >
-      <div className={`main-left-container flex ${windowWidth < 1024 ? 'justify-between w-full' : 'justify-center'}`}>
-        <div className="flex gap-10 font-mono">
+      <div className={`main-left-container flex ${windowWidth < 1024 ? 'justify-between w-full' : ''}`}>
+        <div className={`flex ${windowWidth < 380 ? 'flex-wrap' : ''} gap-10 font-mono`}>
           <div className="left-container flex flex-col gap-4">
             <div className="flex gap-2 items-center">
               <FaEye className="text-2xl" />
@@ -62,16 +62,16 @@ function Page2Icons() {
 
       <div
         className={`main-right-container flex flex-col gap-4 border-l-1 border-[#252423] ${
-          windowWidth < 867 ? "border-none" : windowWidth < 1024 ? "w-full" : "w-1/3"
+          windowWidth < 903 ? "border-none" : windowWidth < 1024 ? "w-full" : "w-1/3"
         }`}
       >
-        <p className={`text-lg font-roobert ${windowWidth < 867 ? 'pl-0' : 'pl-20'}`}>
+        <p className={`text-lg font-roobert ${windowWidth < 903 ? 'pl-0' : 'pl-20'}`}>
           Dimension-js (/dɪˈmɛn.ʃən/) is a lightweight JavaScript animation
           library with a simple, yet powerful API. It works with CSS properties,
           SVG, DOM attributes and JavaScript Objects.
         </p>
 
-        <Codebtn />
+        <Codebtn text="Use this code in your project" />
       </div>
     </div>
   );

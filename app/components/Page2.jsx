@@ -21,7 +21,7 @@ function Page2() {
   return (
     <div className={`w-full h-full flex flex-col gap-20 ${windowWidth < 1024 ? 'items-start' : 'items-center'}`}>
      <div className="font-roobert w-full items-start flex flex-col gap-20">
-      <div className={`w-full flex flex-col gap-2 pt-30 ${windowWidth < 867 ? 'pl-6' : windowWidth < 1024 ? 'pl-10' : 'pl-40'}`}>
+      <div className={`w-full flex flex-col gap-2 pt-30 ${windowWidth < 903 ? 'pl-6' : windowWidth < 1024 ? 'pl-10' : 'pl-40'}`}>
         <h1 className={`font-bold text-[#252423] ${windowWidth < 548 ? 'text-5xl' : 'text-6xl'}`}>Tracking</h1>
         <p className={`text-[#696867] font-semibold ${windowWidth < 548 ? 'text-2xl' : 'text-3xl'}`}>
           Animations using mouse movements.
