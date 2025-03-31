@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { Navbar, Icons } from './modules'
-import { InfiniteTextMenu, Page2, Page3 } from './components'
+import { InfiniteTextMenu, Page2, Page3, Page4 } from './components'
 // import { SmoothScroll } from 'dimension-js'
 function page() {
 
@@ -30,7 +30,7 @@ function page() {
 
 
       <div className="docs bg-[#f6f4f2] w-full h-full">
-
+        <Page4 />
       </div>
 
     </div>

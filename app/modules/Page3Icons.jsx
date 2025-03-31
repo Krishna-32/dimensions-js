@@ -118,9 +118,7 @@ function Icons() {
         }`}
       >
         <p className={`text-lg font-roobert ${windowWidth < 903 ? 'pl-0' : 'pl-20'}`}>
-          Dimension-js (/dɪˈmɛn.ʃən/) is a lightweight JavaScript animation
-          library with a simple, yet powerful API. It works with CSS properties,
-          SVG, DOM attributes and JavaScript Objects.
+          Dimension-js is a lightweight JavaScript library that provides smooth scrolling and other animation effects for your web applications. The library is built with HTML, CSS, JS and React and is designed to be easy to use and integrate into your projects.
         </p>
 
         <Codebtn text="Use this code in your project" />
