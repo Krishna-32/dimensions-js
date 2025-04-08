@@ -20,7 +20,7 @@ function Codebtn({text}) {
   }, []);
 
   return (
-    <div 
+    <a href="https://krishna.mintlify.app/AnimatedLine" target='_blank'
       className={`flex items-center gap-2 text-roobert text-lg cursor-pointer text-[#f74f4d] font-medium  hover:underline ${windowWidth < 903 ? 'pl-0' : 'pl-20'}`}
       onMouseEnter={() => setShowArrow(true)}
       onMouseLeave={() => setShowArrow(false)}
@@ -29,7 +29,7 @@ function Codebtn({text}) {
       <span className={`transition-all duration-300 ${showArrow ? 'translate-x-0' : '-translate-x-6'}`}>
         {text}
       </span>
-    </div>
+    </a>
   )
 }
 

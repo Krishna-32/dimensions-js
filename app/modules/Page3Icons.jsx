@@ -57,8 +57,8 @@ function Icons() {
             </div>
           </div> */}
           <div className={`flex gap-14 ${windowWidth < 375 ? 'flex-wrap' : windowWidth < 1024 ? 'w-full justify-start' : ''}`}>
-        <div className="github cursor-pointer group">
-          <a href="https://github.com/Krishna-32/Dimensions.js" className="flex flex-col items-center gap-2">
+        <div className="html cursor-pointer group">
+          <a href="https://github.com/Krishna-32/Dimensions.js" target='_blank' className="flex flex-col items-center gap-2">
            <FaHtml5
               className='text-4xl group-hover:-translate-y-2 transition-all duration-300'
             />
@@ -70,8 +70,8 @@ function Icons() {
           </a>
         </div>
 
-        <div className="docs cursor-pointer group">
-          <a href="https://dimension-js.vercel.app/documentation" className="flex flex-col items-center gap-2">
+        <div className="css cursor-pointer group">
+          <a href="https://krishna.mintlify.app/AnimatedLine" target='_blank' className="flex flex-col items-center gap-2">
             <FaCss3
               className='text-4xl group-hover:-translate-y-2 transition-all duration-300'
               />
@@ -83,8 +83,8 @@ function Icons() {
           </a>
         </div>
 
-        <div className="code cursor-pointer group">
-          <a href="https://dimension-js.vercel.app/examples" className="flex flex-col items-center gap-2">
+        <div className="js cursor-pointer group">
+          <a href="https://krishna.mintlify.app/AnimatedLine" target='_blank' className="flex flex-col items-center gap-2">
            <FaJs
               className='text-4xl group-hover:-translate-y-2 transition-all duration-300'
               />
@@ -96,8 +96,8 @@ function Icons() {
           </a>
         </div>
 
-        <div className="portfolio cursor-pointer group">
-          <a href="https://mainpf-studio.vercel.app/" className="flex flex-col items-center gap-2">
+        <div className="react cursor-pointer group">
+          <a href="https://krishna.mintlify.app/AnimatedLine" target='_blank' className="flex flex-col items-center gap-2">
             <FaReact
               className='text-4xl group-hover:-translate-y-2 transition-all duration-300'
               />

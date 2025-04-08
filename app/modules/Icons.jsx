@@ -60,7 +60,7 @@ function Icons() {
           </div> */}
           <div className={`flex gap-5 ${windowWidth < 375 ? 'flex-wrap' : windowWidth < 1024 ? 'w-full justify-start' : ''}`}>
         <div className="github cursor-pointer group">
-          <a href="https://github.com/Krishna-32/Dimensions.js" className="flex flex-col items-center gap-2">
+          <a href="https://github.com/Krishna-32/Dimensions.js" target='_blank' className="flex flex-col items-center gap-2">
            <IoLogoGithub
               className='text-4xl group-hover:-translate-y-2 transition-all duration-300'
             />
@@ -73,8 +73,8 @@ function Icons() {
         </div>
 
         <div className="docs cursor-pointer group">
-          <a href="https://dimension-js.vercel.app/documentation" className="flex flex-col items-center gap-2">
-            <BiCodeCurly
+            <a href="https://krishna.mintlify.app/AnimatedLine" target='_blank' className="flex flex-col items-center gap-2">
+              <BiCodeCurly
               className='text-4xl group-hover:-translate-y-2 transition-all duration-300'
               />
               <p
@@ -86,7 +86,7 @@ function Icons() {
         </div>
 
         <div className="code cursor-pointer group">
-          <a href="https://dimension-js.vercel.app/examples" className="flex flex-col items-center gap-2">
+          <a href="https://krishna.mintlify.app/AnimatedLine" target='_blank' className="flex flex-col items-center gap-2">
            <HiOutlineCode
               className='text-4xl group-hover:-translate-y-2 transition-all duration-300'
               />
@@ -99,7 +99,7 @@ function Icons() {
         </div>
 
         <div className="portfolio cursor-pointer group">
-          <a href="https://mainpf-studio.vercel.app/" className="flex flex-col items-center gap-2">
+          <a href="https://mainpf-studio.vercel.app/" target='_blank' className="flex flex-col items-center gap-2">
             <GiRamProfile
               className='text-4xl group-hover:-translate-y-2 transition-all duration-300'
               />

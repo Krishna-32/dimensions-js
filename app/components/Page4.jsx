@@ -46,7 +46,7 @@ function Page3() {
         </div>
         <div className={`w-full h-full flex items-center ${windowWidth < 1024 ? "justify-start" : "justify-center"}`}>
           <div className={`flex gap-10 h-full font-roobert ${ windowWidth < 867 ? "w-full px-6" :  windowWidth < 1024 ? "w-full px-10" : "w-3/4"}`}>
-            <div className="w-full h-full flex flex-col items-start gap-6">
+            <a href="https://www.npmjs.com/package/dimension-js" target='_blank' className="w-full h-full flex flex-col items-start gap-6">
               <svg
                 className="text-[#252423] hover:text-[#f74f4d] transition-all duration-300 cursor-pointer"
                 xmlns="http://www.w3.org/2000/svg"
@@ -91,8 +91,8 @@ function Page3() {
                 </g>
               </svg>
               <Btn text="Download" />
-            </div>
-            <div className={`w-full h-full flex flex-col items-start gap-6 ${windowWidth < 325 ? "hidden" : ""}`}>
+            </a>
+            <a href="https://krishna.mintlify.app/AnimatedLine" target='_blank' className={`w-full h-full flex flex-col items-start gap-6 ${windowWidth < 325 ? "hidden" : ""}`}>
               <svg
                 className="text-[#252423] hover:text-[#f74f4d] transition-all duration-300 cursor-pointer"
                 xmlns="http://www.w3.org/2000/svg"
@@ -133,8 +133,8 @@ function Page3() {
                 </g>
               </svg>
               <Btn text="Docs" />
-            </div>
-            <div className={`w-full h-full flex flex-col items-start gap-6 ${windowWidth < 600 ? "hidden" : ""}`}>
+            </a>
+            <a href="https://mainpf-studio.vercel.app/" target='_blank' className={`w-full h-full flex flex-col items-start gap-6 ${windowWidth < 600 ? "hidden" : ""}`}>
               <svg
                 className="text-[#252423] hover:text-[#f74f4d] transition-all duration-300 cursor-pointer"
                 xmlns="http://www.w3.org/2000/svg"
@@ -187,7 +187,7 @@ function Page3() {
                 </g>
               </svg>
               <Btn text="Portfolio" />
-            </div>
+            </a>
           </div>
         </div>
       </div>

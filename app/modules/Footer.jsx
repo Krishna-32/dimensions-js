@@ -17,9 +17,9 @@ function Footer() {
         
       </div>
       <div className='nav-right gap-4 items-center flex'>
-        <a href="/documentation" className='text-[#f6f4f2] hidden min-[822px]:flex'>Documentation</a>
-        <a href="/examples" className='text-[#f6f4f2] hidden min-[822px]:flex'>Examples</a>
-        <a href="https://www.npmjs.com/package/dimension-js" className='bg-[#f74f4d] rounded-full hidden min-[535px]:flex min-[535px]:py-1 min-[535px]:px-3 text-[#252423]'>Download v0.0.0</a>
+        <a href="https://krishna.mintlify.app/AnimatedLine" target='_blank' className='text-[#f6f4f2] hidden min-[822px]:flex'>Documentation</a>
+        <a href="https://krishna.mintlify.app/AnimatedLine" target='_blank' className='text-[#f6f4f2] hidden min-[822px]:flex'>Examples</a>
+        <a href="https://www.npmjs.com/package/dimension-js" target='_blank' className='bg-[#f74f4d] rounded-full hidden min-[535px]:flex min-[535px]:py-1 min-[535px]:px-3 text-[#252423]'>Download v0.0.0</a>
       </div>
     </div>
   )
