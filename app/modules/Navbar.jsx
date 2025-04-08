@@ -10,7 +10,7 @@ function Navbar() {
         <a href="https://krishna.mintlify.app/AnimatedLine" target='_blank' className='text-[#f6f4f2] hidden min-[669px]:flex'>Documentation</a>
         <a href="https://krishna.mintlify.app/AnimatedLine" target='_blank' className='text-[#f6f4f2] hidden min-[669px]:flex'>Examples</a>
         <a href="https://mainpf-studio.vercel.app/" target='_blank' className='text-[#f6f4f2] hidden min-[669px]:flex'>Sponsor</a>
-        <a href="https://www.npmjs.com/package/dimension-js" target='_blank' className='bg-[#f74f4d] rounded-full hidden min-[380px]:flex min-[380px]:py-1 min-[380px]:px-3 text-[#252423]'>Download v0.0.0</a>
+        <a href="https://www.npmjs.com/package/dimension-js" target='_blank' className='bg-[#f74f4d] rounded-full hidden min-[380px]:flex min-[380px]:py-1 min-[380px]:px-3 text-[#252423]'>Download v0.0.4</a>
       </div>
     </div>
   )
